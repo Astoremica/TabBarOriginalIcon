@@ -24,6 +24,7 @@
 		EDCBE37A26870B2400F3FBD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCBE37D26870B2400F3FBD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDCBE37F26870B2400F3FBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCBE3852687101100F3FBD7 /* TabBarOriginalIcon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TabBarOriginalIcon.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		EDCBE37026870B2300F3FBD7 /* TabBarOriginalIcon */ = {
 			isa = PBXGroup;
 			children = (
+				EDCBE3852687101100F3FBD7 /* TabBarOriginalIcon.entitlements */,
 				EDCBE37126870B2300F3FBD7 /* AppDelegate.swift */,
 				EDCBE37326870B2300F3FBD7 /* SceneDelegate.swift */,
 				EDCBE37526870B2300F3FBD7 /* ViewController.swift */,
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabBarOriginalIcon/TabBarOriginalIcon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HJ5937US4;
 				INFOPLIST_FILE = TabBarOriginalIcon/Info.plist;
@@ -296,6 +299,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TabBarOriginalIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabBarOriginalIcon/TabBarOriginalIcon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HJ5937US4;
 				INFOPLIST_FILE = TabBarOriginalIcon/Info.plist;
@@ -316,6 +321,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TabBarOriginalIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
